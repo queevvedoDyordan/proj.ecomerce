@@ -1,0 +1,57 @@
+/* Reset básico e fontes */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Estilo do Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#campo-busca {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Grade de Produtos */
+#container-produtos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Estilo do Card do Produto (criado pelo JS) */
+.card-produto {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-produto button {
+  background-color: #28a745;  
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card-produto button:hover {
+  background-color: #218838;
+}
